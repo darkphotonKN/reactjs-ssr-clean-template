@@ -1,0 +1,156 @@
+//bg footer : #1c3452
+//border footer : #607085
+
+.bg-footer
+  margin-bottom: -10px
+
+footer
+  background-color: #1c3452
+  padding-top: 0
+  color: #ffffff
+  width: 100%
+  position: relative
+
+  #return-top
+    display: block
+    height: 70px
+    width: 80px
+    background: url('/static/img/footer/backtop.png') no-repeat top center
+    background-size: contain
+    position: absolute
+    z-index: 3
+    right: 20px
+    top: -60px
+    color: #ffffff
+
+    h4
+      text-transform: uppercase
+      font-weight: 300
+      letter-spacing: 1.5px
+      font-size: 1.05rem
+      margin-top: 48px
+      text-align: center
+
+  h3 
+    font-size: 1.8rem
+    font-weight: 400
+    margin-top: 20px
+    padding-bottom: 10px
+
+    a
+      color: #ffffff
+      font-weight: 300
+
+      &:hover 
+        color: #dddddd
+        transition: 0.5s
+        text-decoration: none
+
+  ul
+    list-style: none
+    line-height: 30px
+
+    li
+
+      a
+        color: #e2e2e2
+        font-size: 1.6rem
+        font-weight: 100
+
+        &:hover 
+          color: #dddddd
+          transition: 0.5s
+          text-decoration: none
+  
+  .footer-top
+    h3
+      border-bottom: 1px solid #607085
+
+  .footer-middle
+    background-color: #26466f
+    color: #607085
+    font-size: 1.8rem
+
+    a
+      color: #ffffff
+      font-size: 1.6rem
+      margin: 0 40px
+
+      &:hover 
+        color: #dddddd
+        transition: 0.5s
+        text-decoration: none
+
+  .footer-middle-mobile
+    //background-color: #26466f
+    color: #607085
+    font-size: 1.8rem
+
+    a
+      color: #ffffff
+      font-size: 1.6rem
+
+      &:hover 
+        color: #dddddd
+        transition: 0.5s
+        text-decoration: none
+
+
+  .footer-bottom
+    padding-top: 10px
+    padding-bottom: 20px
+
+    h3 
+      font-size: 1.6rem
+      font-weight: 300
+      color: #ffffff
+
+    p
+      color: #e2e2e2
+      font-size: 1.4rem
+      line-height: 23px
+
+    .btn-transparent
+      display: block
+      border-radius: 30px
+      padding: 10px
+      border: 1px solid #979797
+      text-align: center
+      color: #ffffff
+      margin: 15px 0
+
+    .gov-img
+      width: 40px
+      margin-top: 57%
+      margin-right: 15px
+
+    .access-img
+      height: 35px
+      margin-top: 56%
+     
+  .footer-bottom-mobile
+    display: none
+    padding-bottom: 20px
+
+    .gov-img
+      width: 50px
+      margin-right: 25px
+
+    .access-img
+      height: 45px
+
+.wave
+  position: relative
+
+  .wave-one
+    position: absolute
+    top: 10px
+    z-index: 2
+    animation: wave-one 5s ease-in-out infinite
+    left: -5%
+
+  .wave-two
+    margin-bottom: -5px
+    z-index: 1
+    animation: wave-two 3.5s ease-in-out infinite
+

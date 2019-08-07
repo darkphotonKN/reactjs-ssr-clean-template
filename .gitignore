@@ -1,0 +1,5 @@
+config.codekit3
+.DS_Store
+node_modules
+.next
+**/.DS_Store

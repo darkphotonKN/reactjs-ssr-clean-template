@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900')
+
+*,
+*::after,
+*::before
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  // font-size: 100%
+
+html
+  font-size: 62.5% // makes 1rem into 10px
+  
+body 
+  box-sizing: border-box
+  font-family: 'Noto Sans TC'
+  font-size: 1.4rem
+  font-weight: 300
+  background-color: $color-bg-home
+
+.app
+  overflow: hidden
+
+a
+  &:hover 
+    text-decoration: none
+  
+
+// Additional Utility
+h1, h2, h3, h4, h5, h6 
+  color: $color-text-primary
+  margin-bottom: 0
+
+.mt-lg 
+  margin-top: 60px
+
+.mt-xlg
+  margin-top: 90px
+
+.mt-xxlg 
+  margin-top: 140px
+
+.no-padding
+  padding: 0
+
+
+// Border Radius
+.br-sm
+  border-radius: 4px
+
+.br-md
+  border-radius: 10px
+
+.br-lg
+  border-radius: 30px
+
+
+
+  
+// Main content area wrap for most content pages 
+.main-content
+  padding: 40px 40px
+  border-radius: $br-med
+  padding: 15px 0
+
+  &.no-padding
+    padding: 0
+
+  .content-area
+    min-height: 40vh
+    margin-top: 25px
+    margin-bottom: 100px
+
+  .text-content
+    font-size: 1.6rem
+    line-height: 27px
+    text-align: justify
+    margin-top: 30px
+
+    &.no-padding
+      margin-top: 5px
+
+
+
+.ellipsis
+  white-space: nowrap
+  text-overflow: ellipsis
+  overflow: hidden
+
+
+//font weight
+
+.fw-100
+  font-weight: 100
+.fw-200
+  font-weight: 200
+.fw-300
+  font-weight: 300
+.fw-400
+  font-weight: 400
+.fw-500
+  font-weight: 500
+.fw-600
+  font-weight: 600
+.fw-700
+  font-weight: 700
+.fw-800
+  font-weight: 800
+.fw-900
+  font-weight: 900
+
+

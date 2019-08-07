@@ -1,0 +1,33 @@
+{
+  "name": "shimen-dev",
+  "version": "1.0.0",
+  "description": "Shimen website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 3003",
+    "side-dev": "next -p 3003",
+    "build": "NODE_ENV=production next build",
+    "start": "NODE_ENV=production node ./server.js",
+    "heroku-postbuild": "./node_modules/next/dist/bin/next build"
+  },
+  "author": "Champtron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.0.2",
+    "nprogress": "^0.2.0",
+    "proxy": "^0.2.4",
+    "react": "^16.8.6",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-data-table-component": "^1.4.6",
+    "react-dom": "^16.8.6",
+    "react-slick": "^0.24.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
