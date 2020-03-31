@@ -15,7 +15,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "isomorphic-fetch": "^2.2.1",
-    "next": "^9.0.2",
+    "next": "^9.3.2",
     "nprogress": "^0.2.0",
     "proxy": "^0.2.4",
     "react": "^16.8.6",
